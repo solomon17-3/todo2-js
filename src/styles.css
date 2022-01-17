@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px; /*内側の上下・左右*/
+  outline: none; /*外枠の排除*/
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  margin-left: 3px;
+}
+
+button:hover {
+  background-color: #ff7fff;
+  color: #fff; /*文字の色を変更する*/
+  cursor: pointer; /*マウスオーバー時にカーソルの種類を変更する*/
+}
+
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+  height: 30px; /*高さ*/
+  padding: 8px; /*内側の余白*/
+  margin: 8px; /*外側の余白*/
+  border-radius: 8px; /*角の丸み*/
+}
+
+.imcomplete-area {
+  background-color: #c6ffe2;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px; /*外側の余白*/
+  border-radius: 8px; /*角の丸み*/
+}
+
+.complete-area {
+  background-color: #ffffe0;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px; /*外側の余白*/
+  border-radius: 8px; /*角の丸み*/
+}
+
+.title {
+  text-align: center; /*中央揃えにする*/
+  margin-top: 0;
+  font-weight: bold; /*太字に変更する*/
+  color: #666;
+}
+
+li {
+  padding-bottom: 4px;
+}
+
+p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+}
